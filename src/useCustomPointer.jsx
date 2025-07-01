@@ -18,11 +18,11 @@ export default function useCustomPointer() {
     return (
         <div
             style={{
-                position: "absolute",
+                position: "fixed",
                 top: position.y,
                 left: position.x,
-                pointerEvents: "none",
-                fontSize: "24px",
+                transform: "translate(-50%, -50%)",
+                cursor: "none"
             }}
         >
             🔥
